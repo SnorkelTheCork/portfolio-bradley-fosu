@@ -1,1 +1,6 @@
-
+:root {
+    --primary-color: #3B2F35;
+    --padding: 20px;
+    --font-family: 'Glass Antiqua', sans-serif;
+    --font-family-alt: 'Grandiflora One', sans-serif;
+}
