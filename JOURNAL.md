@@ -10,7 +10,7 @@
 ###  Pas encore.
 
 
-**Date :** 2026-10-01
-**Prompt :** "Ajustez la classe « middle__about » en CSS de manière à ce que « middle__about-title » et « middle__about-image » se trouvent dans la colonne de gauche et que « middle__about-description » se trouve dans la colonne de droite."
-**Outil :** Co-Pilot (VS Code)
-**Résultat :** Cela a modifié les classes pour produire le résultat que je voulais. Je l'ai accepté tel quel.
+- **Date :** 2026-10-01
+- **Prompt :** "Ajustez la classe « middle__about » en CSS de manière à ce que « middle__about-title » et « middle__about-image » se trouvent dans la colonne de gauche et que « middle__about-description » se trouve dans la colonne de droite."
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** Cela a modifié les classes pour produire le résultat que je voulais. Je l'ai accepté tel quel.
