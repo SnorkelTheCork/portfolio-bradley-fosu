@@ -1,1 +1,34 @@
-
+[
+    {
+        "id": "card__archer",
+        "title": "Master Archer VR",
+        "image": "",
+        "description": "Un jeu en réalité virtuelle où le joueur tire des flèches sur des cibles.",
+        "team": ["Mohamed Ali Sadki", "Harley Marlon Labbé"],
+        "software": ["Unity", "Maya"]
+    },
+    {
+        "id": "card__paranoia",
+        "title": "Paranoïa Douce",
+        "image": "",
+        "description": "Une courte vidéo que nous avons tournée et montée ensemble.",
+        "team": ["Meena Atai", "Dana Saavedra-Torrano", "Flor Michell De La Cruz Montano"],
+        "software": ["DaVinci Resolve", "Reaper"]
+    },
+    {
+        "id": "card__mushroom",
+        "title": "Champion des champignons",
+        "image": "",
+        "description": "Un jeu vidéo que j'ai créé avec Godot.",
+        "team": "Individuel",
+        "software": "Godot"
+    },
+    {
+        "id": "card__consolation",
+        "title": "Consolation Violette",
+        "image": "",
+        "description": "J'ai créé un lieu fictif, puis je l'ai animé pour réaliser une courte vidéo.",
+        "team": "Individuel",
+        "software": ["Maya", "DaVinci Resolve", "Reaper"]
+    }
+]

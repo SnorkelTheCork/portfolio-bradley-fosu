@@ -8,3 +8,20 @@
 ###  De commencer les prochaines pages de mon portfolio.
 # 5. Est-ce que j'ai utilisé l'IA? Si oui, pour quoi et qu'est-ce que ça m'a appris?
 ###  Pas encore.
+
+- **Date :** 2026-09-30
+- **Prompt :** "Modifiez la classe CSS « ​​middle__hero-image » pour que sa taille s'adapte à celle de l'écran."
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** Cela a modifié la taille de l'image. J'ai modifié le "width" et j'ai ajouté un "transform".
+
+
+- **Date :** 2026-10-01
+- **Prompt :** "Ajustez la classe « middle__about » en CSS de manière à ce que « middle__about-title » et « middle__about-image » se trouvent dans la colonne de gauche et que « middle__about-description » se trouve dans la colonne de droite."
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** Cela a modifié les classes pour produire le résultat que je voulais. Je l'ai accepté tel quel.
+
+
+- **Date :** 2026-10-02
+- **Prompt :** "Rendez la taille de la police de la classe « middle__about-description » adaptative en fonction de la taille de l'écran, tout en limitant sa taille maximale à 48 px."
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** rejeté.

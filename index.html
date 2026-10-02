@@ -4,79 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bradley</title>
-    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/variable.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/composants/carte-projet.css">
+    <script src="js/data.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/composants/carte-projet.js" defer></script>
 </head>
-<body>
-    <div class="container">
-        <section>
-            <h1>Portfolio</h1>
-            <h2>Bradley Fosu</h2>
-            <img src="" alt="">
-        </section>
+<body class="container">
+    <header class="top"></header>
 
-        <section>
-            <h2>Propos de moi</h2>
-            <img src="" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.</p>
-        </section>
+    <main class="middle">
+        <h1 class="middle__title">Portfolio</h1>
 
-        <section>
-            <h2>Projets</h2>
-            <div class="projets">
-                <div class="carte-projet">
-                    <title>Master Archer VR</title>
-                    <img src="" alt="">
-                    <p>Un jeu en réalité virtuelle où le joueur tire des flèches sur des cibles.</p>
-                    <p>Coéquipiers: Mohamed Ali Sadki, Harley Marlon Labbé.</p>
-                    <p>Logiciels: Unity, Maya.</p>
-                </div>
-                <div class="carte-projet">
-                    <title>Paranoïa Douce</title>
-                    <img src="" alt="">
-                    <p>Une courte vidéo que nous avons tournée et montée ensemble.</p>
-                    <p>Coéquipiers: Meena Atai, Dana Saavedra-Torrano, Flor Michell De La Cruz Montano.</p>
-                    <p>Logiciels: DaVinci Resolve, Reaper.</p>
-                </div>
-                <div class="carte-projet">
-                    <title>Champion des champignons</title>
-                    <img src="" alt="">
-                    <p>Un jeu vidéo que j'ai créé avec Godot.</p>
-                    <p>Individuel.</p>
-                    <p>Logiciels: Godot.</p>
-                </div>
-                <div class="carte-projet">
-                     <title>Consolation Violette</title>
-                    <img src="" alt="">
-                    <p>J'ai créé un lieu fictif, puis je l'ai animé pour réaliser une courte vidéo.</p>
-                    <p>Individuel.</p>
-                    <p>Logiciels: Maya, DaVinci Resolve, Reaper.</p>
-                </div>
+        <div class="middle__hero">
+            <h2 class="middle__hero-subtitle">Bradley Fosu</h2>
+            <img class="middle__hero-image" src="assets/images/379b88f505273b282ca5950b05c72065 1 [Vectorized].png" alt="">
+        </div>
+
+        <div class="middle__about">
+            <h2 class="middle__about-title">Propos de moi</h2>
+            <img class="middle__about-image" src="assets/images/Magic_Circle 1 [Vectorized].png" alt="">
+            <p class="middle__about-description">Bonjour! Je m'appelle Bradley Fosu et je suis diplômé du programme multimédia du Collège Montmorency.
+                Bien que je souhaite approfondir mes connaissances dans divers domaines,
+                je suis particulièrement passionné par les jeux vidéo, la modélisation et l'animation 3D,
+                ainsi que par la réalisation cinématographique.
+                J'espère avoir l'occasion de travailler avec vous prochainement!
+            </p>
+        </div>
+
+        <div class="middle__competences">
+            <div class="middle__competences-titlespace">
+                <h2 class="middle__competences-title">Projets</h2>
             </div>
-        </section>
 
-        <section>
-            <div>
-                <h2>Logiciels</h2>
-            </div>
-            <div>
-                <img src="" alt="">
-            </div>
-        </section>
+            <div class="middle__competences-cards"></div>
+        </div>
 
-        <section>
-            <div>
+        <div class="middle__applications">
+                <h2 class="middle__applications-title">Logiciels</h2>
+                <img class="middle__applications-image" src="assets/images/pngtree-mysterious-magic-circle-png-image_3584054 1 [Vectorized].png" alt="">
+                <img class="middle__applications-illustrator" src="assets/icones/Adobe Illustrator.png" alt="">
+                <img class="middle__applications-photoshop" src="assets/icones/Adobe Photoshop.png" alt="">
+                <img class="middle__applications-effects" src="assets/icones/After Effects.png" alt="After Effects">
+                <img class="middle__applications-maya" src="assets/icones/Autodesk Maya.png" alt="">
+                <img class="middle__applications-davinci" src="assets/icones/icons8-davinci-resolve-96.png" alt="">
+                <img class="middle__applications-reaper" src="assets/icones/icons8-reaper-96.png" alt="">
+                <img class="middle__applications-vsc" src="assets/icones/Visual Studio Code (VS Code).png" alt="">
+                <img class="middle__applications-wp" src="assets/icones/icons8-wordpress-96.png" alt="">
+        </div>
+
+        <div class="middle__contact">
+            <div class="middle__contact-title">
                 <h2>Contact</h2>
             </div>
-            <div>
-                <button>GitHub</button>
-                <button>LinkedIn</button>
-                <button>438-368-4886</button>
-                <button>bradfosu@hotmail.com</button>
+            <div class="middle__contact-buttons">
+                <button class="middle__contact-button github">GitHub</button>
+                <button class="middle__contact-button linkedin">LinkedIn</button>
+                <button class="middle__contact-button phone">438-368-4886</button>
+                <button class="middle__contact-button email">bradfosu@hotmail.com</button>
             </div>
-        </section>
-    </div>
+        </div>
+    </main>
+
+    <footer class="bottom">
+        <p>&copy; 2026 Bradley Fosu. Tous droits réservés.</p>
+    </footer>
 </body>
 </html>
