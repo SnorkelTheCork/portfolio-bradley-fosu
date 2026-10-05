@@ -2,33 +2,37 @@
     {
         "id": "card__archer",
         "title": "Master Archer VR",
-        "image": "",
+        "image": "assets/images/archer.png",
         "description": "Un jeu en réalité virtuelle où le joueur tire des flèches sur des cibles.",
         "team": ["Mohamed Ali Sadki", "Harley Marlon Labbé"],
-        "software": ["Unity", "Maya"]
+        "software": ["Unity", "Maya"],
+        "link": "https://github.com/SnorkelTheCork/master_archer_vr"
     },
     {
         "id": "card__paranoia",
         "title": "Paranoïa Douce",
-        "image": "",
+        "image": "assets/images/paranoia.png",
         "description": "Une courte vidéo que nous avons tournée et montée ensemble.",
         "team": ["Meena Atai", "Dana Saavedra-Torrano", "Flor Michell De La Cruz Montano"],
-        "software": ["DaVinci Resolve", "Reaper"]
+        "software": ["DaVinci Resolve", "Reaper"],
+        "link": "https://cmontmorency365-my.sharepoint.com/personal/2172812_cmontmorency_qc_ca/_layouts/15/stream.aspx?id=%2Fpersonal%2F2172812%5Fcmontmorency%5Fqc%5Fca%2FDocuments%2Fmacro%5F582%2D413MO%5FH264%2Emov&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E0a29cbe5%2Dee5b%2D4dc6%2Dbfcb%2Dfdbd815a8202"
     },
     {
         "id": "card__mushroom",
         "title": "Champion des champignons",
-        "image": "",
+        "image": "assets/images/mushroom.png",
         "description": "Un jeu vidéo que j'ai créé avec Godot.",
         "team": "Individuel",
-        "software": "Godot"
+        "software": "Godot",
+        "link": "https://snorkelthecork.github.io/fosu_bradley_tp4_ludique/"
     },
     {
         "id": "card__consolation",
         "title": "Consolation Violette",
-        "image": "",
+        "image": "assets/images/violet.png",
         "description": "J'ai créé un lieu fictif, puis je l'ai animé pour réaliser une courte vidéo.",
         "team": "Individuel",
-        "software": ["Maya", "DaVinci Resolve", "Reaper"]
+        "software": ["Maya", "DaVinci Resolve", "Reaper"],
+        "link": "https://github.com/SnorkelTheCork/consolation_violette"
     }
 ]

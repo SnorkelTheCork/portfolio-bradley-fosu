@@ -17,7 +17,14 @@
     overflow: hidden;
 }
 
-.card__title {}
+.card__title {
+    justify-self: center;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: var(--font-family);
+    color: var(--font-color);
+}
 
 .card__image {
     width: 100%;
@@ -28,8 +35,28 @@
     padding: var(--padding);
 }
 
-.card__description {}
+.card__description {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: var(--font-family-alt);
+    color: var(--font-color);
+}
 
-.card__teammates {}
+.card__teammates {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: var(--font-family-alt);
+    color: var(--font-color);
+}
 
-.card__applications {}
+.card__applications {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: var(--font-family-alt);
+    color: var(--font-color);
+}
+
+.card__links {
+    justify-self: center;
+    color: var(--primary-color);
+}

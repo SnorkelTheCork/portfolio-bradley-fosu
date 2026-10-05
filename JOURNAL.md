@@ -24,4 +24,19 @@
 - **Date :** 2026-10-02
 - **Prompt :** "Rendez la taille de la police de la classe « middle__about-description » adaptative en fonction de la taille de l'écran, tout en limitant sa taille maximale à 48 px."
 - **Outil :** Co-Pilot (VS Code)
-- **Résultat :** rejeté.
+- **Résultat :** Rejeté.
+
+**Date :** 2026-10-02
+- **Prompt :** "Animez tous les éléments de la classe « middle__applications » en CSS — à l'exception de « middle__applications-title » — afin qu'ils tournent en boucle dans le sens inverse des aiguilles d'une montre."
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** Rejeté.
+
+**Date :** 2026-10-05
+- **Prompt :** "Animez la classe « .middle__about-image » de manière à ce qu'elle brille avec une luminosité variable."
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** Cela a modifié la classe pour produire le résultat que je voulais. Je l'ai accepté tel quel.
+
+**Date :** 2026-10-05
+- **Prompt :** "Adaptez la taille de la classe « .middle competences-titlespace » à la page du site web tout en conservant le border-radius."
+- **Outil :** Co-Pilot (VS Code)
+- **Résultat :** Rejeté.

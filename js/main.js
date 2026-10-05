@@ -4,7 +4,7 @@ async function init() {
     projects.forEach(project => {
         console.log(project.title);
     });
-    const grid = document.querySelector('.projects__grid');
+    const grid = document.querySelector('.middle__competences-cards');
     grid.innerHTML = projects.map(createProjectCard).join('');
 }
 

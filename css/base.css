@@ -5,6 +5,16 @@ body {
     padding: var(--padding);
 }
 
+@keyframes about-image-glow {
+    0%,
+    100% {
+        filter: brightness(1);
+    }
+    50% {
+        filter: brightness(1.5);
+    }
+}
+
 .top__list {
     display: flex;
     list-style: none;
@@ -15,6 +25,7 @@ body {
 
 .middle__title {
     margin-bottom: 0px;
+    font-size: clamp(2rem, 5vw, 4rem);
 }
 
 .middle__hero {
@@ -28,6 +39,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
+    font-size: 3vw;
 }
 
 .middle__hero-image {
@@ -35,6 +47,7 @@ body {
     transform: translateX(15%);
     width: 75%;
     height: auto;
+    animation: about-image-glow 3s ease-in-out infinite;
 }
 
 .middle__about {
@@ -48,7 +61,7 @@ body {
     left: 8%;
     transform: translate(-50%, -50%);
     margin: 0;
-    font-size: 38px;
+    font-size: 2.5vw;
 }
 
 .middle__about-image {
@@ -56,6 +69,7 @@ body {
     transform: translateX(-35%);
     width: 100%;
     height: auto;
+    animation: about-image-glow 3s ease-in-out infinite;
 }
 
 .middle__about-description {
@@ -63,17 +77,18 @@ body {
     padding-right: 20px;
     padding-top: 20px;
     text-align:justify;
-    font-size: 48px;
+    font-size: 3vw;
     color: var(--primary-color);
 }
 
 .middle__competences-titlespace {
     position: relative;
-    width: 250px;
-    height: 250px;
+    width: 15vw;
+    height: 27vh;
     border: 1px solid var(--primary-color);
     border-radius: 50%;
     background-color: #0B0B0C;
+    justify-self: center;
 }
 
 .middle__competences-title {
@@ -83,6 +98,7 @@ body {
     transform: translate(-50%, -50%);
     margin: 0;
     color: #EAECEE;
+    font-size: 3vw;
 }
 
 .middle__applications {
@@ -93,10 +109,11 @@ body {
 .middle__applications-title {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 49%;
     transform: translate(-50%, -50%);
     margin: 0;
     text-align: center;
+    font-size: 2vw;
 }
 
 .middle__applications-image {
@@ -104,20 +121,8 @@ body {
     transform: translateX(15%);
     width: 75%;
     height: auto;
+    animation: about-image-glow 3s ease-in-out infinite;
 }
-
-/*.middle__applications > :not(.middle__applications-title) {
-    animation: applications-counter-clockwise 10s linear infinite;
-}
-
-@keyframes applications-counter-clockwise {
-    from {
-        rotate: 0deg;
-    }
-    to {
-        rotate: -360deg;
-    }
-} */
 
 /* icones */
 
@@ -201,6 +206,11 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.middle__contact-title {
+    text-align: center;
+    font-size: 3vw;
 }
 
 .middle__contact-button {
