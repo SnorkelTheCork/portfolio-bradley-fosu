@@ -26,6 +26,7 @@ body {
 .middle__title {
     margin-bottom: 0px;
     font-size: clamp(2rem, 5vw, 4rem);
+    text-align: center;
 }
 
 .middle__hero {
@@ -88,7 +89,8 @@ body {
     border: 1px solid var(--primary-color);
     border-radius: 50%;
     background-color: #0B0B0C;
-    justify-self: center;
+    display: block;
+    margin: 0 auto;
 }
 
 .middle__competences-title {
