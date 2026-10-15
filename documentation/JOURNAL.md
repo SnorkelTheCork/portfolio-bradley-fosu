@@ -26,11 +26,11 @@
 ## 1. Qu'est-ce que j'ai accompli depuis le dernier bloc?
 ### J'ai terminé ma version main.
 ## 2.Quelle a été ma principale difficulté et comment je l'ai surmontée?
-###
+### Bien aligner des éléments. J'ai ajouté la balise "display: flex;".
 ## 3.Qu'est-ce que j'ai appris que je ne savais pas avant?
-###
+### Comment bien faire des correctifs pour mes projets web.
 ## 4.Si j'avais une semaine de plus, qu'est-ce que je changerais?
-### J'ajouterais des 
+### J'ajouterais des séparateurs pour faciliter la lisibilité du site.
 ## 5.Est-ce que j'ai utilisé l'IA? Si oui, pour quoi et qu'est-ce que ça m'a appris?
 ### Non.
 
