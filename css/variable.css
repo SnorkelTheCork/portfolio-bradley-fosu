@@ -1,7 +1,8 @@
 :root {
-    --background-color: #3B2F35;
+    --main-gradient: linear-gradient(to bottom, #342048, #3B2F35);
     --primary-color: #E6D89D;
     --secondary-color: #0B0B0C;
+    --tertiary-color: #35FF31;
     --padding: 20px;
     --font-family: 'Glass Antiqua', sans-serif;
     --font-color: #EAECEE;

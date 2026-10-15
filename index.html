@@ -1,32 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bradley</title>
+    <title>Bradley Fosu | Portfolio</title>
     <link rel="stylesheet" href="css/variable.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/composants/carte-projet.css">
+    <link rel="stylesheet" href="css/composants/navigation.css">
     <script src="js/data.js" defer></script>
     <script src="js/main.js" defer></script>
     <script src="js/composants/carte-projet.js" defer></script>
     <style>@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&display=swap');</style>
 </head>
 <body class="container">
-    <header class="top"></header>
 
+    <!-- class de navigation -->
+    <header class="top">
+        <nav>
+            <ul class="top__list">
+                <!-- Liens de navigation -->
+                <li><a href="#portfolio">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#apps">Logiciels</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- class de contenu principal -->
     <main class="middle">
-        <h1 class="middle__title">Portfolio</h1>
 
+        <!-- class de section hero -->
         <div class="middle__hero">
+            <img id="portfolio" class="middle__hero-title" src="assets/images/Portfolio.webp" alt="Titre du portfolio" width="295" height="73" loading="lazy">
             <h2 class="middle__hero-subtitle">Bradley Fosu</h2>
-            <img class="middle__hero-image" src="assets/images/379b88f505273b282ca5950b05c72065 1 [Vectorized].png" alt="">
+            <img class="middle__hero-image" src="assets/images/cercle_hero.webp" alt="Cercle magique pour la section hero" width="585" height="632" loading="lazy">
         </div>
 
-        <div class="middle__about">
+        <!-- class de section à propos -->
+        <div id="about" class="middle__about">
             <h2 class="middle__about-title">Propos de moi</h2>
-            <img class="middle__about-image" src="assets/images/Magic_Circle 1 [Vectorized].png" alt="">
+            <img class="middle__about-image" src="assets/images/Magic_Circle 1 [Vectorized].webp" alt="Cercle magique pour la section à propos" width="592" height="592" loading="lazy">
             <p class="middle__about-description">Bonjour! Je m'appelle Bradley Fosu et je suis diplômé du programme multimédia du Collège Montmorency.
                 Bien que je souhaite approfondir mes connaissances dans divers domaines,
                 je suis particulièrement passionné par les jeux vidéo, la modélisation et l'animation 3D,
@@ -35,38 +51,44 @@
             </p>
         </div>
 
-        <div class="middle__competences">
+        <!-- class de section des projets -->
+        <div id="projects" class="middle__competences">
             <div class="middle__competences-titlespace">
                 <h2 class="middle__competences-title">Projets</h2>
             </div>
 
+            <!-- Cartes des projets -->
             <div class="middle__competences-cards"></div>
         </div>
 
-        <div class="middle__applications">
+        <!-- class de section des logiciels -->
+        <div id="apps" class="middle__applications">
                 <h2 class="middle__applications-title">Logiciels</h2>
-                <img class="middle__applications-image" src="assets/images/pngtree-mysterious-magic-circle-png-image_3584054 1 [Vectorized].png" alt="">
-                <img class="middle__applications-illustrator" src="assets/icones/Adobe Illustrator.png" alt="">
-                <img class="middle__applications-photoshop" src="assets/icones/Adobe Photoshop.png" alt="">
-                <img class="middle__applications-effects" src="assets/icones/After Effects.png" alt="After Effects">
-                <img class="middle__applications-maya" src="assets/icones/Autodesk Maya.png" alt="">
-                <img class="middle__applications-davinci" src="assets/icones/icons8-davinci-resolve-96.png" alt="">
-                <img class="middle__applications-reaper" src="assets/icones/icons8-reaper-96.png" alt="">
-                <img class="middle__applications-vsc" src="assets/icones/Visual Studio Code (VS Code).png" alt="">
-                <img class="middle__applications-wp" src="assets/icones/icons8-wordpress-96.png" alt="">
+                <img class="middle__applications-image" src="assets/images/pngtree-mysterious-magic-circle-png-image_3584054 1 [Vectorized].webp" alt="Cercle magique pour la section des logiciels" width="540" height="540" loading="lazy">
+                <!-- Toutes les icônes -->
+                <img class="middle__applications-illustrator" src="assets/icones/Adobe Illustrator.webp" alt="Icône Adobe Illustrator" loading="lazy">
+                <img class="middle__applications-photoshop" src="assets/icones/Adobe Photoshop.webp" alt="Icône Adobe Photoshop" loading="lazy">
+                <img class="middle__applications-effects" src="assets/icones/After Effects.webp" alt="Icône After Effects" loading="lazy">
+                <img class="middle__applications-maya" src="assets/icones/Autodesk Maya.webp" alt="Icône Autodesk Maya" loading="lazy">
+                <img class="middle__applications-davinci" src="assets/icones/icons8-davinci-resolve-96.webp" alt="Icône DaVinci Resolve" loading="lazy">
+                <img class="middle__applications-reaper" src="assets/icones/icons8-reaper-96.webp" alt="Icône Reaper" loading="lazy">
+                <img class="middle__applications-vsc" src="assets/icones/Visual Studio Code (VS Code).webp" alt="Icône Visual Studio Code" loading="lazy">
+                <img class="middle__applications-wp" src="assets/icones/icons8-wordpress-96.webp" alt="Icône WordPress" loading="lazy">
         </div>
 
-        <div class="middle__contact">
+        <!-- class de section contact -->
+        <div id="contact" class="middle__contact">
             <div class="middle__contact-title">
-                <h2>Contact</h2>
+                <h2>Contact Moi!</h2>
             </div>
             <div class="middle__contact-buttons">
-                <button class="middle__contact-button phone">438-368-4886</button>
-                <button class="middle__contact-button email">bradfosu@hotmail.com</button>
+                <p class="middle__contact-button phone">438-368-4886</p>
+                <p class="middle__contact-button email">bradfosu@hotmail.com</p>
             </div>
         </div>
     </main>
 
+    <!-- class de pied de page -->
     <footer class="bottom">
         <p>&copy; 2026 Bradley Fosu. Tous droits réservés.</p>
     </footer>

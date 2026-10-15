@@ -1,3 +1,4 @@
+/*CSS des cartes de projets*/
 .middle__competences {
     width: 100%;
     margin: 2rem 0;
@@ -35,21 +36,7 @@
     padding: var(--padding);
 }
 
-.card__description {
-    font-size: 1rem;
-    font-weight: bold;
-    font-family: var(--font-family-alt);
-    color: var(--font-color);
-}
-
-.card__teammates {
-    font-size: 1rem;
-    font-weight: bold;
-    font-family: var(--font-family-alt);
-    color: var(--font-color);
-}
-
-.card__applications {
+.card__text {
     font-size: 1rem;
     font-weight: bold;
     font-family: var(--font-family-alt);

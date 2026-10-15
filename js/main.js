@@ -1,3 +1,4 @@
+/* Fonction d'initialisation de les cartes de projets */
 async function init() {
     const projects = await loadProjects();
     console.table(projects);

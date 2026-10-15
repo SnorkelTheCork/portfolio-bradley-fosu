@@ -1,9 +1,12 @@
 body {
-    background-color: var(--background-color);
+    background: var(--main-gradient);
     font-family: var(--font-family);
     color: var(--font-color);
     padding: var(--padding);
+    scroll-behavior: smooth;
 }
+
+/* Animations */
 
 @keyframes about-image-glow {
     0%,
@@ -15,23 +18,34 @@ body {
     }
 }
 
-.top__list {
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    gap: 35px;
+@keyframes slideAndFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-.middle__title {
-    margin-bottom: 0px;
-    font-size: clamp(2rem, 5vw, 4rem);
-    text-align: center;
-}
+/* Section Hero */
 
 .middle__hero {
     position: relative;
-    display:inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.middle__hero-title {
+    position: absolute;
+    top: 1%;
+    margin: 0px;
+    width: 25%;
+    height: auto;
+    z-index: 2;
 }
 
 .middle__hero-subtitle {
@@ -40,16 +54,19 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
-    font-size: 3vw;
+    font-size: clamp(0.9rem, 2.8vw, 3rem);
+    z-index: 2;
 }
 
 .middle__hero-image {
     display: block;
-    transform: translateX(15%);
     width: 75%;
     height: auto;
+    margin: 0;
     animation: about-image-glow 3s ease-in-out infinite;
 }
+
+/* À propos */
 
 .middle__about {
     position: relative;
@@ -62,7 +79,7 @@ body {
     left: 8%;
     transform: translate(-50%, -50%);
     margin: 0;
-    font-size: 2.5vw;
+    font-size: clamp(0.9rem, 2.8vw, 3rem);
 }
 
 .middle__about-image {
@@ -70,6 +87,8 @@ body {
     transform: translateX(-35%);
     width: 100%;
     height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 50px rgba(255, 220, 138, 0.71);
     animation: about-image-glow 3s ease-in-out infinite;
 }
 
@@ -78,17 +97,19 @@ body {
     padding-right: 20px;
     padding-top: 20px;
     text-align:justify;
-    font-size: 3vw;
+    font-size: clamp(1rem, 3vw, 4rem);
     color: var(--primary-color);
+    animation-name: slideAndFadeIn;
+    animation-timeline: view(); 
+    animation-fill-mode: both;
 }
+
+/* Projets */
 
 .middle__competences-titlespace {
     position: relative;
     width: 15vw;
     height: 27vh;
-    border: 1px solid var(--primary-color);
-    border-radius: 50%;
-    background-color: #0B0B0C;
     display: block;
     margin: 0 auto;
 }
@@ -100,27 +121,33 @@ body {
     transform: translate(-50%, -50%);
     margin: 0;
     color: #EAECEE;
-    font-size: 3vw;
+    font-size: clamp(2rem, 5vw, 5rem);
 }
+
+/* Applications */
 
 .middle__applications {
     position: relative;
-    display:inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .middle__applications-title {
     position: absolute;
     top: 50%;
-    left: 49%;
+    left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
     text-align: center;
-    font-size: 2vw;
+    font-size: clamp(0.9rem, 2.8vw, 3rem);
 }
 
 .middle__applications-image {
     display: block;
-    transform: translateX(15%);
     width: 75%;
     height: auto;
     animation: about-image-glow 3s ease-in-out infinite;
@@ -131,66 +158,70 @@ body {
 .middle__applications-illustrator {
     position: absolute;
     top: 10%;
-    left: 49%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    width: 75px;
-    height: 75px;
+    width: 6vw;
+    aspect-ratio: 1/1;
     border-radius: 50%;
 }
 
 .middle__applications-photoshop {
     position: absolute;
     top: 22%;
-    left: 28%;
+    left: 29%;
     transform: translate(-50%, -50%);
-    width: 75px;
-    height: 75px;
+    width: 6vw;
+    aspect-ratio: 1/1;
     border-radius: 50%;
 }
 
 .middle__applications-effects {
     position: absolute;
     top: 50%;
-    left: 19%;
+    left: 20%;
     transform: translate(-50%, -50%);
-    width: 75px;
-    height: 75px;
+    width: 6vw;
+    aspect-ratio: 1/1;
     border-radius: 50%;
 }
 
 .middle__applications-maya {
     position: absolute;
     top: 79%;
-    left: 28%;
+    left: 29%;
     transform: translate(-50%, -50%);
-    width: 75px;
-    height: 75px;
+    width: 6vw;
+    aspect-ratio: 1/1;
     border-radius: 50%;
 }
 
 .middle__applications-davinci {
     position: absolute;
     top: 90%;
-    left: 49%;
+    left: 50%;
     transform: translate(-50%, -50%);
+    width: 6vw;
+    aspect-ratio: 1/1;
     border-radius: 50%;
 }
 
 .middle__applications-reaper {
     position: absolute;
     top: 79%;
-    left: 69%;
+    left: 70%;
     transform: translate(-50%, -50%);
+    width: 6vw;
+    aspect-ratio: 1/1;
     border-radius: 50%;
 }
 
 .middle__applications-vsc {
     position: absolute;
     top: 50%;
-    left: 78%;
+    left: 79%;
     transform: translate(-50%, -50%);
-    width: 75px;
-    height: 75px;
+    width: 6vw;
+    aspect-ratio: 1/1;
     border-radius: 50%;
 }
 
@@ -199,10 +230,12 @@ body {
     top: 23%;
     left: 70%;
     transform: translate(-50%, -50%);
+    width: 6vw;
+    aspect-ratio: 1/1;
     border-radius: 50%;
 }
 
-/* */
+/* Contact */
 
 .middle__contact-buttons {
     display: flex;
@@ -212,17 +245,20 @@ body {
 
 .middle__contact-title {
     text-align: center;
-    font-size: 3vw;
+    font-size: clamp(2rem, 3.5vw, 4rem);
 }
 
 .middle__contact-button {
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 1.5rem;
     background-color: #0B0B0C;
     color: #EAECEE;
     border: 1px solid #E6D89D;
     border-radius: 5px;
+    align-self: center;
 }
+
+/* Footer */
 
 .bottom {
     text-align: center;

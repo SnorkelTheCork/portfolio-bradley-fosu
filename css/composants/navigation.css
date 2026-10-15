@@ -1,1 +1,19 @@
+/* Navigation */
 
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: clamp(1rem, 1.5vw, 3rem);
+}
+
+a:hover {
+    color: var(--tertiary-color);
+}
+
+.top__list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 7vw;
+}
